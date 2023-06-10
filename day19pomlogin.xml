@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/faruk/IdeaProjects/mytestNGproject/src/test/java/com/myapp/tests/topics/Day_19_POM_Login.java">
+        <classes>
+            <class name="com.myapp.tests.topics.Day_19_POM_Login">
+                <methods>
+                    <include name="loginTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+<--! This xml file is created by the test ng xml plugin to run one of the java test class

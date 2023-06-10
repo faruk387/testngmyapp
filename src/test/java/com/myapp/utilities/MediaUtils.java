@@ -12,7 +12,7 @@ public class MediaUtils {
     /*
   This method captures sscreenshot of the entire page
    */
-    public void takeScreenshotOfTheEntirePage() throws IOException {
+    public static void takeScreenshotOfTheEntirePage() throws IOException {
 //        1. TakeScreenShot class with getScreenShotAs method to capture the screenshot
         File image = ((TakesScreenshot)Driver.getDriver()).getScreenshotAs(OutputType.FILE);
 //        2. Create a path to save the image
@@ -29,7 +29,7 @@ public class MediaUtils {
     This method captures screenshot of specific elements
     this method accepts an elements and saves the screenshot of that element in the test-output folder
      */
-    public void takeScreenshotOfThisElement(WebElement element) throws IOException {
+    public static void takeScreenshotOfThisElement(WebElement element) throws IOException {
         File image = element.getScreenshotAs(OutputType.FILE);
         String now = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
         String path = System.getProperty("user.dir")+"/test-output/ElementScreenshot/"+now+"image.png";

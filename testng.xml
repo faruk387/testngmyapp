@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/faruk/IdeaProjects/mytestNGproject/src/test/java/com/myapp/tests/smoketestsuite/logintests">
+        <classes>
+            <class name="com.myapp.tests.smoketestsuite.logintests.Day20_Bad_Credentials">
+                <methods>
+                    <include name="US413123_Bad_Credentials"/>
+                </methods>
+            </class>
+            <class name="com.myapp.tests.smoketestsuite.logintests.Day20_NegativeLogin">
+                <methods>
+                    <include name="US100208_NegativeLogin"/>
+                </methods>
+            </class>
+            <class name="com.myapp.tests.smoketestsuite.logintests.Day20_PositiveLogin">
+                <methods>
+                    <include name="US100201_Admin_Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

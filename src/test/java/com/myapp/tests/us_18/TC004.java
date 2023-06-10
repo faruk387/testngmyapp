@@ -13,6 +13,7 @@ public class TC004 {
     public void US18_TC004() {
         //   1. Login to the application.
         Driver.getDriver().get(ConfigReader.getProperty("pearly_market_url"));
+
         // 2. Navigate to "My Account" > "Account Details".
         PearlyHomePage pearlyHomePage = new PearlyHomePage();
         pearlyHomePage.signInButton.click();

@@ -1,0 +1,14 @@
+How do you get reports ?
+GENERAL - I use Extent Report…
+SPECIFIC EXAMPLE 1 - We have ExtentReportUtils. It has the reusable methods such as log, pass, fail,… I call them in my test cases…
+SPECIFIC EXAMPLE 2 - I am able to capture screenshot with extent reports as well. For example, I created one extent reports methods that logs the message and captures the screenshots…
+SPECIFIC EXAMPLE 2 - Extent reports generates HTMT reports. I then upload those reports to the JIRA. Or I can share the reports with my team(Smoke test reports)
+
+
+What is Log4J?
+GENERAL - used to log information
+DETAIL 1 - we can print on the console
+DETAIL 2 - we can print on a log file
+DETAIL 3 - it is used similar to system.out.print.ln
+DETAIL 4 - it is useful to see the info logs that pass, fail, error .
+DETAIL 5 - it is basically used to generate reports for log(prints)
